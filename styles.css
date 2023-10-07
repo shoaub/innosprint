@@ -1,0 +1,97 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li, a {
+    margin: 16px;
+    padding:10px ;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #ffffff, #6eb8ed);
+    color: #000000;
+}
+
+header {
+    background-color: #db7575;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px 0;
+}
+
+header .logo {
+    text-align: center;
+}
+
+header .logo h1 {
+    font-size: 40em;
+    color: #333;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: #333;
+    font-weight: 900;
+    font-size: 1.2em;
+}
+
+nav a:hover {
+    color: #007BFF; /* Change the color on hover */
+    transition: color 0.3s ease; /* Smooth transition effect */
+}
+
+.search-bar {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.search-bar input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 60%;
+    font-size: 1em;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #0056b3; /* Change the color on hover */
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+.user-account {
+    text-align: center;
+}
+
+.user-account a {
+    margin: 0 10px;
+    color: #333;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.user-account a:hover {
+    color: #007BFF; /* Change the color on hover */
+    transition: color 0.3s ease; /* Smooth transition effect */
+}
+
+/* Add your additional styles for product listings and other elements */
